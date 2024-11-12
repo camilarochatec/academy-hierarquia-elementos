@@ -1,0 +1,35 @@
+/* p{
+    color: blue;
+}
+
+p{
+    color: red;
+} */
+
+/* o style é lida em cascacata, ela é lida de baixo para cima, assim o último vai se sobrasair mas esse comportamneto acontece pq é o mesmo seletor, são da mesma hierarquia. se fosse um id ou uma class por causa da hierarquia ela seguirá ou id ou class.*/
+
+/* .cor{
+    color: blue;
+}
+
+p{
+    color: red;
+} */
+/* ele é refenciado pela class. assim a maior hierarquia é da class e ele será aplicado. */
+/* .cor{
+    color: blue;
+}
+
+#par{
+    color: rgb(255, 0, 140);
+} */
+/* ele é refenciado pela id. assim a maior hierarquia é da id e ele será aplicado. */
+
+p{
+    color: rgb(0, 255, 34)!important;
+}
+
+#par{
+    color: rgb(255, 0, 140);
+}
+/* como tem o !important ele será aplicado não importa a hierarquia. */
